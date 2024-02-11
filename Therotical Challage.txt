@@ -1,0 +1,29 @@
+Que 1 )How will you tackle the challenge above? 
+
+1. First, we read the CSV file and remember what's in each cell.
+2.  Then, we look at each formula and figure out its value, considering if it needs other cell values.
+3.  We check if there are any mistakes in the formulas or if they confusingly refer to each other.
+4. : Finally, we write down the results in a new CSV file.
+
+
+Que 2) What type of errors you would you check for? 
+
+1. We make sure the formulas are written correctly and don't have any mistakes.
+
+2. We check if one formula refers back to another, which can cause problems like circular dependency.
+
+3. We double-check if formulas point to existing cells and make sense.
+
+4. We watch out for situations where dividing by zero could cause trouble.
+
+
+Que 3) How might a user break your code?
+
+1. If the CSV file doesn't look right, like missing commas or weird cell references, it might confuse the program.
+
+2. If someone writes a formula that's all messed up or refers back to itself in a loop, it could mess things up.
+
+3. Some fancy stuff might not work, so if people try using it, things could go wrong.
+
+4. If the file is too big or has lots of complicated formulas, it might slow things down or use up too much memory.
+

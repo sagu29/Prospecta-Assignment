@@ -1,0 +1,18 @@
+Question: what are the key things you would consider when creating/consuming an API 
+to ensure that it is secure and reliable?
+
+Answer:
+
+1. Authentication and Authorization.
+
+2. Input Validation
+
+3. Error Handling
+
+4. testing
+
+5. data protection effectively.
+
+6. scalability.
+
+7. we can use Swagger for API documentation.
